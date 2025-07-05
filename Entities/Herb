@@ -1,0 +1,314 @@
+{
+  "name": "Herb",
+  "type": "object",
+  "properties": {
+    "common_name": {
+      "type": "string",
+      "description": "Common name of the herb"
+    },
+    "scientific_name": {
+      "type": "string",
+      "description": "Scientific binomial name"
+    },
+    "family": {
+      "type": "string",
+      "description": "Botanical family"
+    },
+    "native_region": {
+      "type": "string",
+      "description": "Native geographical region"
+    },
+    "plant_anatomy": {
+      "type": "object",
+      "properties": {
+        "root_system": {
+          "type": "string"
+        },
+        "stem_structure": {
+          "type": "string"
+        },
+        "leaf_arrangement": {
+          "type": "string"
+        },
+        "flower_structure": {
+          "type": "string"
+        },
+        "specialized_organs": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_physiology": {
+      "type": "object",
+      "properties": {
+        "photosynthesis_type": {
+          "type": "string"
+        },
+        "water_requirements": {
+          "type": "string"
+        },
+        "nutrient_cycle": {
+          "type": "string"
+        },
+        "metabolic_pathways": {
+          "type": "string"
+        },
+        "growth_patterns": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_genetics": {
+      "type": "object",
+      "properties": {
+        "chromosome_count": {
+          "type": "string"
+        },
+        "ploidy_level": {
+          "type": "string"
+        },
+        "genetic_markers": {
+          "type": "string"
+        },
+        "breeding_system": {
+          "type": "string"
+        },
+        "gene_expression": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_ecology": {
+      "type": "object",
+      "properties": {
+        "habitat_preferences": {
+          "type": "string"
+        },
+        "ecological_niche": {
+          "type": "string"
+        },
+        "pollination_syndrome": {
+          "type": "string"
+        },
+        "seed_dispersal": {
+          "type": "string"
+        },
+        "ecological_interactions": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_systematics": {
+      "type": "object",
+      "properties": {
+        "taxonomic_classification": {
+          "type": "string"
+        },
+        "phylogenetic_relationships": {
+          "type": "string"
+        },
+        "evolutionary_history": {
+          "type": "string"
+        },
+        "classification_changes": {
+          "type": "string"
+        },
+        "related_species": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_morphology": {
+      "type": "object",
+      "properties": {
+        "growth_habit": {
+          "type": "string"
+        },
+        "leaf_morphology": {
+          "type": "string"
+        },
+        "flower_morphology": {
+          "type": "string"
+        },
+        "fruit_structure": {
+          "type": "string"
+        },
+        "surface_features": {
+          "type": "string"
+        }
+      }
+    },
+    "paleobotany": {
+      "type": "object",
+      "properties": {
+        "fossil_record": {
+          "type": "string"
+        },
+        "evolutionary_timeline": {
+          "type": "string"
+        },
+        "ancestral_forms": {
+          "type": "string"
+        },
+        "geographic_distribution_history": {
+          "type": "string"
+        },
+        "climate_adaptation": {
+          "type": "string"
+        }
+      }
+    },
+    "phytochemistry": {
+      "type": "object",
+      "properties": {
+        "primary_metabolites": {
+          "type": "string"
+        },
+        "secondary_metabolites": {
+          "type": "string"
+        },
+        "active_compounds": {
+          "type": "string"
+        },
+        "chemical_defense": {
+          "type": "string"
+        },
+        "biosynthetic_pathways": {
+          "type": "string"
+        }
+      }
+    },
+    "molecular_biology": {
+      "type": "object",
+      "properties": {
+        "dna_sequences": {
+          "type": "string"
+        },
+        "protein_structure": {
+          "type": "string"
+        },
+        "gene_regulation": {
+          "type": "string"
+        },
+        "molecular_markers": {
+          "type": "string"
+        },
+        "genomic_features": {
+          "type": "string"
+        }
+      }
+    },
+    "environmental_biology": {
+      "type": "object",
+      "properties": {
+        "climate_tolerance": {
+          "type": "string"
+        },
+        "soil_requirements": {
+          "type": "string"
+        },
+        "stress_responses": {
+          "type": "string"
+        },
+        "adaptation_mechanisms": {
+          "type": "string"
+        },
+        "environmental_indicators": {
+          "type": "string"
+        }
+      }
+    },
+    "microbiology": {
+      "type": "object",
+      "properties": {
+        "rhizosphere_microbes": {
+          "type": "string"
+        },
+        "endophytic_bacteria": {
+          "type": "string"
+        },
+        "fungal_associations": {
+          "type": "string"
+        },
+        "plant_pathogen_interactions": {
+          "type": "string"
+        },
+        "beneficial_microorganisms": {
+          "type": "string"
+        }
+      }
+    },
+    "plant_agriculture": {
+      "type": "object",
+      "properties": {
+        "crop_production": {
+          "type": "string"
+        },
+        "soil_management": {
+          "type": "string"
+        },
+        "water_management": {
+          "type": "string"
+        },
+        "nutrient_management": {
+          "type": "string"
+        },
+        "climate_and_energy_modeling": {
+          "type": "string"
+        },
+        "pest_and_disease_management": {
+          "type": "string"
+        }
+      }
+    },
+    "ethnobotany": {
+      "type": "object",
+      "properties": {
+        "ethnomedicobotany": {
+          "type": "string"
+        },
+        "ethnotaxonomy": {
+          "type": "string"
+        },
+        "ethnoecology": {
+          "type": "string"
+        },
+        "ethnogynaecology": {
+          "type": "string"
+        },
+        "ethnotoxicology": {
+          "type": "string"
+        },
+        "ethnoentomology": {
+          "type": "string"
+        },
+        "ethnoveterinary_medicine": {
+          "type": "string"
+        },
+        "ethnoagriculture": {
+          "type": "string"
+        },
+        "paleoethnobotany": {
+          "type": "string"
+        }
+      }
+    },
+    "conservation_status": {
+      "type": "string",
+      "description": "Current conservation status"
+    },
+    "medicinal_properties": {
+      "type": "string",
+      "description": "Traditional and modern medicinal uses"
+    },
+    "cultivation_notes": {
+      "type": "string",
+      "description": "Cultivation and propagation information"
+    }
+  },
+  "required": [
+    "common_name",
+    "scientific_name",
+    "family"
+  ]
+}
